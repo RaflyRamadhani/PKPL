@@ -1,0 +1,113 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Warna latar belakang halaman */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px; /* Lebar maksimum kontainer */
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333; /* Warna teks judul */
+}
+
+.subtitle {
+    font-size: 14px;
+    text-align: center;
+    color: #666; /* Warna teks subtitle */
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px; /* Jarak antara input */
+}
+
+.text-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s; /* Transisi border */
+}
+
+.text-input:focus {
+    border-color: #007bff; /* Warna border saat fokus */
+}
+
+.error {
+    color: #e3342f; /* Warna untuk pesan error */
+    font-size: 12px; /* Ukuran font pesan error */
+}
+
+.remember-me {
+    margin-bottom: 20px; /* Jarak untuk checkbox */
+}
+
+.remember-me label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555; /* Warna teks untuk remember me */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #007bff; /* Warna teks link */
+}
+
+.forgot-password:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+.submit-button {
+    background-color: #007bff; /* Warna tombol */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transisi tombol */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
+
+.register-link {
+    text-align: center; /* Rata tengah untuk link registrasi */
+    margin-top: 20px; /* Jarak atas untuk link registrasi */
+}
+
+.register {
+    color: #007bff; /* Warna link registrasi */
+}
+
+.register:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
